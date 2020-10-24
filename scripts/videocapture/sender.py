@@ -66,6 +66,6 @@ def send_email(smtp_host, smtp_port, sendAddr, password, recipientAddrs, subject
 try:
     subject = 'RaspberryPi VideoCapture'
     content = '***照片拍于'+time.strftime('%Y/%m/%d %H:%M:%S')+'***\n'
-    send_email('smtp.qq.com', 465, '885541942@qq.com', 'ffxodrrutdzhbbig', '1324901134@qq.com', subject, content)
+    send_email('smtp.qq.com', 465, '********@qq.com', 'ffxodrrutdzhbbig', '********@qq.com', subject, content)
 except Exception as err:
     print(err)
