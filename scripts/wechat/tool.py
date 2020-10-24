@@ -12,8 +12,8 @@ class Tools:
     def get_access_token(self):#get acess_token
         params ={
         'grant_type':'client_credential',
-        'appid':'wx5ae1f28b0cf15253',
-        'secret':'a88c1032236fc5dda69c63109504e3b6'}
+        'appid':'111',
+        'secret':'111'}
         get = re.get(self.url_for_token,params=params)
         result = get.json()
         access_token = result['access_token']
